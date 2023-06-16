@@ -7,14 +7,6 @@ const Header: FC = () => {
     <Helmet>
       <link rel="icon" type="image/svg+xml" href={couple} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Hari weds Sreelakshmi" />
-      <meta
-        property="og:description"
-        content="Join us to celebrate our wedding"
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:image" content="/bg_image.jpg" />
-      <meta property="og:url" content="https://www.colbyfayock.com" />
       <title>Hari weds Sreelakshmi</title>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
