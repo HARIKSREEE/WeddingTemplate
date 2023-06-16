@@ -19,6 +19,10 @@
     &__address {
         display: flex;
         flex-direction: column;
+
+        time {
+            white-space: nowrap;
+        }
     }
 
     &__link {
