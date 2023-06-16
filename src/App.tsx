@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+//@ts-ignore
 import { ReactComponent as Ganesha } from "./assets/ganesha.svg";
 
 import "./App.scss";
