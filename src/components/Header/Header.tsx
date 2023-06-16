@@ -15,7 +15,7 @@ const Header: FC = () => {
         rel="stylesheet"
       ></link>
       <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@200..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@200..900"
         rel="stylesheet"
       ></link>
     </Helmet>
