@@ -1,0 +1,62 @@
+:root {
+  font-family: sans-serif;
+  color-scheme: dark;
+  font-size: calc(15px + 0.390625vw);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  max-width: 1280px;
+
+  --bg-secondary: #134074;
+  --bg-alt: #13315c;
+  --bg-main: #0b2545;
+  --text-secondary: #8da9c4;
+  --text-primary: #eef4ed;
+
+  --logo-height: 3rem;
+  --logo-width: 3rem;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  padding: 1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  @media screen and (min-width: 768px) {
+    padding: 2rem;
+  }
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.style-normal {
+  font-family: 'Comfortaa';
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.style-cursive {
+  font-family: 'Satisfy', cursive, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}

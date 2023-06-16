@@ -1,0 +1,78 @@
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  &__top-icon {
+    animation: jump 3s ease 0s infinite normal;
+  }
+
+  &__invite {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+.invite {
+  &__couple-info {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.venue {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  &__wedding,
+  &__reception {
+    flex-basis: 420px;
+    flex-grow: 1;
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.neon-text {
+  color: var(--text-primary);
+  text-shadow:
+    0 0 7px var(--text-primary),
+    0 0 10px var(--text-primary);
+}
